@@ -80,15 +80,12 @@ body {
 h2 {
     font-size: 28px;
     font-weight: 600;
-    color: #303030;
 }
 h4 {
     font-size: 24px;
-    color: #303030;
 }
 p {
     font-size: 18px;
-    color: #303030;
 }
 
 /* GLYPHICONS */
@@ -137,12 +134,52 @@ p {
     visibility: visible;
 }
 
+/* FOOTER */
+.website-footer {
+    color: #fff;
+}
+
 /* BLOG */
+.blog-link {
+    font-size: 30px;
+}
+.blog-link:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.recommended-box {
+    height: 550px;
+    overflow: scroll;
+}
 .blog-panel {
     margin-top: 0px;
 }
 .blog-img {
     display: inline;
+}
+.comming-soon__img:hover {
+    cursor: pointer;
+}
+.comming-soon__heading {
+    background-color: #00859f !important;
+    color: #fff !important;
+}
+.post-heading {
+    background-color: #00859f !important;
+    color: #fff !important;
+}
+.post-heading:hover {
+    background-color: #fff !important;
+    color: #756970 !important;
+    transition-duration: 700ms;
+    cursor: pointer;
+}
+.post-heading__img {
+    float: left;
+    height: 140px;
+    border: 6px solid #F5F5F5;
+    border-radius: 10px;
 }
 
 
