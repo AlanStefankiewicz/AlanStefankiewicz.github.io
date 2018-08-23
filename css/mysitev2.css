@@ -148,10 +148,6 @@ p {
     text-decoration: none;
 }
 
-.recommended-box {
-    height: 550px;
-    overflow: scroll;
-}
 .blog-panel {
     margin-top: 0px;
 }
@@ -227,4 +223,9 @@ p {
     .logo {
         font-size: 150px;
     }
+    .recommended-box {
+        height: 550px;
+        overflow: scroll;
+    }
+    
   }
