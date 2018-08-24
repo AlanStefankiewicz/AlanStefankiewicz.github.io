@@ -157,10 +157,6 @@ p {
 .comming-soon__img:hover {
     cursor: pointer;
 }
-.comming-soon__heading {
-    background-color: #00859f !important;
-    color: #fff !important;
-}
 .post-heading {
     background-color: #00859f !important;
     color: #fff !important;
@@ -177,10 +173,6 @@ p {
     border: 6px solid #F5F5F5;
     border-radius: 10px;
 }
-.blog-social__heading {
-    background-color: #00859f !important;
-    color: #fff !important;
-}
 .blog-social__list {
     padding: 0px;
 }
@@ -188,6 +180,23 @@ p {
     display: inline-block;
     cursor: pointer;
     margin: 5px;
+}
+.blog-aside__heading {
+    background-color: #00859f !important;
+    color: #fff !important;
+}
+.mc-field-group {
+    margin: 5px;
+}
+.subscribe-button {
+    background-color: #00859f !important;
+    color: #fff !important;
+}
+.subscribe-button:hover {
+    color: #96858f !important;
+    background-color: #fff !important;
+    cursor: pointer;
+    transition: 700ms;
 }
 
 @keyframes slide {
