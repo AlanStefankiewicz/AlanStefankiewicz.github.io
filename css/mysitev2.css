@@ -142,10 +142,17 @@ p {
 /* BLOG */
 .blog-link {
     font-size: 30px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #00859f;
+    color: #fff;
 }
 .blog-link:hover {
-    font-weight: bold;
     text-decoration: none;
+    color: #756970;
+    background-color: #fff;
+    border: 2px solid #756970;
+    transition-duration: 700ms;
 }
 
 .blog-panel {
