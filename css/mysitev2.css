@@ -205,6 +205,14 @@ p {
     cursor: pointer;
     transition: 700ms;
 }
+.post-link {
+    text-decoration: none !important;
+}
+.post-heading__active {
+    background-color: #00859f !important;
+    color: #fff !important;   
+}
+
 
 @keyframes slide {
     0% {
