@@ -208,6 +208,9 @@ p {
 .post-link {
     text-decoration: none !important;
 }
+.post-link:hover {
+    text-decoration: none !important;
+}
 .post-heading__active {
     background-color: #00859f !important;
     color: #fff !important;   
