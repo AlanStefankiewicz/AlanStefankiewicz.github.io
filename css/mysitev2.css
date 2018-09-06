@@ -215,6 +215,9 @@ p {
     background-color: #00859f !important;
     color: #fff !important;   
 }
+.description-list {
+    font-size: 18px;
+}
 
 
 @keyframes slide {
