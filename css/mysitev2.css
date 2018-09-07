@@ -147,6 +147,20 @@ p {
     background-color: #00859f;
     color: #fff;
 }
+.button-link {
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #00859f;
+    color: #fff;
+}
+.button-link:hover {
+    text-decoration: none;
+    color: #756970;
+    background-color: #fff;
+    border: 2px solid #756970;
+    transition-duration: 700ms;
+}
 .blog-link:hover {
     text-decoration: none;
     color: #756970;
